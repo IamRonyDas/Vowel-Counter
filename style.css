@@ -1,0 +1,42 @@
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+body{
+    background-color: rgb(47, 47, 147);
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pal{
+    width: 40rem;
+    background-color: aliceblue;
+    padding: 30px;
+    border: 2px solid salmon;
+}
+h1{
+    text-align: center;
+    color: rgba(36, 187, 112, 0.873);
+    font-size: 4rem;
+}
+input{
+    width: 70%;
+    height: 30%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid lightcoral;
+    color: aqua;
+    padding: 1rem 5px;
+    font-size: 1.5rem;
+}
+
+.result{
+    text-align: center;
+    color: orangered;
+    font-size: 2rem;
+}
